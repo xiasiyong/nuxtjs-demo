@@ -53,7 +53,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /root/realworld-nuxtjs
+          cd /root/nuxtjs-demo
           wget https://github.com/xiasiyong/nuxtjs-demo/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
